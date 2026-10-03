@@ -1,0 +1,25 @@
+{
+  "name": "portfolio-2026",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Futuristic high-tech portfolio for 2026 Computer Science Engineering graduate",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^5.4.0"
+  },
+  "keywords": [
+    "portfolio",
+    "developer",
+    "cse-2026",
+    "futuristic",
+    "python",
+    "sql"
+  ],
+  "author": "Swami",
+  "license": "MIT"
+}
