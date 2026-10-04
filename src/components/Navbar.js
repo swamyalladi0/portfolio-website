@@ -1,4 +1,4 @@
-import { portfolioData } from '../data/portfolioData.js';
+import { portfolioData } from '../data/portfolioData.js?v=2.1';
 
 export function renderNavbar() {
   const { personal } = portfolioData;

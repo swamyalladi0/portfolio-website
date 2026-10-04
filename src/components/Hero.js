@@ -1,4 +1,4 @@
-import { portfolioData } from '../data/portfolioData.js';
+import { portfolioData } from '../data/portfolioData.js?v=2.1';
 
 export function renderHero() {
   const { personal } = portfolioData;
@@ -181,17 +181,10 @@ export function initHeroInteractions() {
       const reader = new FileReader();
       reader.onload = (event) => {
         profileImg.src = event.target.result;
-        localStorage.setItem('custom_portfolio_photo', event.target.result);
       };
       reader.readAsDataURL(file);
     }
   });
-
-  // Check if previously saved local photo exists
-  const savedPhoto = localStorage.getItem('custom_portfolio_photo');
-  if (savedPhoto && profileImg) {
-    profileImg.src = savedPhoto;
-  }
 }
 
 function escapeHtml(str) {

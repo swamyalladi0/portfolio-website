@@ -1,15 +1,15 @@
-import { renderNavbar, initNavbarInteractions } from './components/Navbar.js';
-import { renderHero, initHeroInteractions } from './components/Hero.js';
-import { renderAbout } from './components/About.js';
-import { renderSkills, initSkillsInteractions } from './components/Skills.js';
-import { renderProjects } from './components/Projects.js';
-import { renderEducation } from './components/Education.js';
-import { renderResume } from './components/Resume.js';
-import { renderContact, initContactInteractions } from './components/Contact.js';
-import { renderFooter, initFooterInteractions } from './components/Footer.js';
-import { renderModals, initModalsInteractions } from './components/Modals.js';
-import { renderLiveEditor, initLiveEditorInteractions } from './components/LiveEditor.js';
-import { initBackgroundEffects } from './components/Background.js';
+import { renderNavbar, initNavbarInteractions } from './components/Navbar.js?v=2.1';
+import { renderHero, initHeroInteractions } from './components/Hero.js?v=2.1';
+import { renderAbout } from './components/About.js?v=2.1';
+import { renderSkills, initSkillsInteractions } from './components/Skills.js?v=2.1';
+import { renderProjects } from './components/Projects.js?v=2.1';
+import { renderEducation } from './components/Education.js?v=2.1';
+import { renderResume } from './components/Resume.js?v=2.1';
+import { renderContact, initContactInteractions } from './components/Contact.js?v=2.1';
+import { renderFooter, initFooterInteractions } from './components/Footer.js?v=2.1';
+import { renderModals, initModalsInteractions } from './components/Modals.js?v=2.1';
+import { renderLiveEditor, initLiveEditorInteractions } from './components/LiveEditor.js?v=2.1';
+import { initBackgroundEffects } from './components/Background.js?v=2.1';
 
 function initApp() {
   const appContainer = document.getElementById('app');
