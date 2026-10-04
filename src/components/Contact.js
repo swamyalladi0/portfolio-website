@@ -28,6 +28,23 @@ export function renderContact() {
 
             <div class="contact-info-list">
               
+              <!-- Name / Identity Card -->
+              <div class="contact-card-item">
+                <div class="contact-item-left">
+                  <div class="contact-icon-box">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                      <circle cx="12" cy="7" r="4"></circle>
+                    </svg>
+                  </div>
+                  <div>
+                    <div class="contact-label">Software Developer</div>
+                    <div class="contact-value">${escapeHtml(contact.developerName || "SWAMY ALLADI")}</div>
+                  </div>
+                </div>
+                <span class="badge badge-tech" style="font-size: 0.72rem;">Identity</span>
+              </div>
+
               <!-- Email Card -->
               <div class="contact-card-item">
                 <div class="contact-item-left">

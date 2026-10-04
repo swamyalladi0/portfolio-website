@@ -14,8 +14,8 @@
 export const portfolioData = {
   // Personal Details
   personal: {
-    name: "Swami",
-    initials: "S",
+    name: "ALLADI SWAMY",
+    initials: "AS",
     role: "Computer Science Engineering Graduate • 2026",
     subRole: "Aspiring Software Developer",
     graduationYear: "2026",
@@ -27,8 +27,8 @@ export const portfolioData = {
       "I am a 2026 Computer Science Engineering graduate with a strong foundation in core software development, programming, databases, and building useful applications. Passionate about writing clean, maintainable code, dissecting complex problems into elegant logic, and continuously exploring modern engineering practices.",
     profilePhoto: "./src/assets/profile.jpg",
     resumeUrl: "./src/assets/resume.pdf",
-    location: "[YOUR LOCATION]",
-    email: "[YOUR EMAIL]",
+    location: "Degam, Armoor, NZB, Telangana",
+    email: "swamyalladi0@gmail.com",
     github: "https://github.com/swamyalladi0",
     linkedin: "https://linkedin.com/in/[YOUR-LINKEDIN]",
     status: "Available for Software Developer Opportunities",
@@ -306,11 +306,11 @@ ORDER BY occupancy_rate DESC;`
     year: "2026",
     degree: "Bachelor of Technology / Bachelor of Engineering",
     major: "Computer Science & Engineering",
-    institution: "[COLLEGE NAME]",
-    university: "[UNIVERSITY / AFFILIATION]",
+    institution: "St. Mary's Group of Institutions",
+    university: "JNTU",
     cgpa: "[CGPA]", // e.g. "8.6 / 10.0"
     status: "Graduating Batch 2026",
-    location: "[COLLEGE LOCATION]",
+    location: "Deshmukhi, Hyderabad",
     relevantCoursework: [
       "Data Structures & Algorithms",
       "Object-Oriented Programming (OOP)",
@@ -339,12 +339,13 @@ ORDER BY occupancy_rate DESC;`
   contact: {
     heading: "Let's Connect",
     subheading: "Have an opportunity, question, or looking to collaborate? Drop me a message below.",
-    email: "[YOUR EMAIL]",
+    developerName: "SWAMY ALLADI",
+    email: "swamyalladi0@gmail.com",
     github: "https://github.com/swamyalladi0",
     githubUsername: "@swamyalladi0",
     linkedin: "https://linkedin.com/in/[YOUR-LINKEDIN]",
     linkedinUsername: "in/[YOUR-LINKEDIN]",
-    location: "[YOUR LOCATION]",
+    location: "Degam, Armoor, NZB, Telangana",
     availability: "Available for internships & full-time junior developer roles (2026)",
     note: "Response time: Typically within 24-48 hours."
   },
@@ -352,7 +353,7 @@ ORDER BY occupancy_rate DESC;`
   // Footer Information
   footer: {
     quote: "Designed & built with curiosity.",
-    copyright: "© 2026 Swami. All rights reserved.",
+    copyright: "© 2026 ALLADI SWAMY. All rights reserved.",
     links: [
       { label: "Home", href: "#home" },
       { label: "About", href: "#about" },
